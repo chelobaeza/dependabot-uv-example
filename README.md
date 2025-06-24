@@ -1,0 +1,40 @@
+# Dependabot Demo [pip-compile]
+
+## Installation
+
+1. **Install Python dependencies**
+
+You can install the required dependencies for development or CI using the following commands:
+
+```bash
+make pip
+```
+
+2. **Install Dependabot CLI**
+
+Dependabot can be run locally using the official CLI. To install it, run:
+
+You can use Docker (recommended by Dependabot):
+
+```bash
+docker pull dependabot/dependabot-core
+```
+
+See the [Dependabot CLI documentation](https://github.com/dependabot/dependabot-core#usage) for more details.
+
+## Running Dependabot Update
+
+To run the Dependabot update command locally, use:
+
+```bash
+dependabot update
+```
+
+Make sure you have Dependabot installed and configured for your project. For more details, see the [Dependabot documentation](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates).
+
+
+## Pipgrip
+
+```
+pipgrip sentry-sdk[django]==2.12.0 boto3 --tree
+```
