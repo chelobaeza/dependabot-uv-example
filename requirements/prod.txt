@@ -15,7 +15,7 @@ billiard==4.2.1 \
 boto3==1.38.43 \
     --hash=sha256:2e3411bb43285caad1c8e1a3186d025ba65a6342e26bad493f6b8feb3d1a1680 \
     --hash=sha256:9b0ff0b34c9cf7328546c532c20b081f09055ff485f4d57c19146c36877048c5
-    # via -r requirements/prod.in
+    # via -r prod.in
 botocore==1.38.43 \
     --hash=sha256:2ee60ac0b08e80e9be2aa2841d42e438d5bc4f82549560a682837655097a3db7 \
     --hash=sha256:c453c5c16c157c5427058bb3cc2c5ad35ee2e43336f0ccbfcc6092c5635505c6
@@ -25,15 +25,15 @@ botocore==1.38.43 \
 cachetools==5.3.2 \
     --hash=sha256:086ee420196f7b2ab9ca2db2520aca326318b68fe5ba8bc4d49cca91add450f2 \
     --hash=sha256:861f35a13a451f94e301ce2bec7cac63e881232ccce7ed67fab9b5df4d3beaa1
-    # via -r requirements/prod.in
+    # via -r prod.in
 celery[redis]==5.3.6 \
     --hash=sha256:870cc71d737c0200c397290d730344cc991d13a057534353d124c9380267aab9 \
     --hash=sha256:9da4ea0118d232ce97dff5ed4974587fb1c0ff5c10042eb15278487cdd27d1af
-    # via -r requirements/prod.in
+    # via -r prod.in
 celery-types==0.23.0 \
     --hash=sha256:0cc495b8d7729891b7e070d0ec8d4906d2373209656a6e8b8276fe1ed306af9a \
     --hash=sha256:402ed0555aea3cd5e1e6248f4632e4f18eec8edb2435173f9e6dc08449fa101e
-    # via -r requirements/prod.in
+    # via -r prod.in
 certifi==2025.6.15 \
     --hash=sha256:2e0c7ce7cb5d8f8634ca55d2ba7e6ec2689a2fd6537d8dec1296a477a4910057 \
     --hash=sha256:d747aa5a8b9bbbb1bb8c22bb13e22bd1f18e9796defa16bab421f7f7a317323b
@@ -160,12 +160,12 @@ cryptography==42.0.4 \
     --hash=sha256:f47be41843200f7faec0683ad751e5ef11b9a56a220d57f300376cd8aba81660 \
     --hash=sha256:fb0cef872d8193e487fc6bdb08559c3aa41b659a7d9be48b2e10747f47863925 \
     --hash=sha256:ffc73996c4fca3d2b6c1c8c12bfd3ad00def8621da24f547626bf06441400449
-    # via -r requirements/prod.in
-django==4.2.14 \
-    --hash=sha256:3ec32bc2c616ab02834b9cac93143a7dc1cdcd5b822d78ac95fc20a38c534240 \
-    --hash=sha256:fc6919875a6226c7ffcae1a7d51e0f2ceaf6f160393180818f6c95f51b1e7b96
+    # via -r prod.in
+django==4.2.22 \
+    --hash=sha256:0a32773b5b7f4e774a155ee253ab24a841fed7e9e9061db08bf2ce9711da404d \
+    --hash=sha256:e726764b094407c313adba5e2e866ab88f00436cad85c540a5bf76dc0a912c9e
     # via
-    #   -r requirements/prod.in
+    #   -r prod.in
     #   sentry-sdk
 jmespath==1.0.1 \
     --hash=sha256:02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980 \
@@ -210,7 +210,7 @@ s3transfer==0.13.0 \
 sentry-sdk[django]==2.12.0 \
     --hash=sha256:7a8d5163d2ba5c5f4464628c6b68f85e86972f7c636acc78aed45c61b98b7a5e \
     --hash=sha256:8763840497b817d44c49b3fe3f5f7388d083f2337ffedf008b2cdb63b5c86dc6
-    # via -r requirements/prod.in
+    # via -r prod.in
 six==1.17.0 \
     --hash=sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274 \
     --hash=sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81
@@ -222,7 +222,7 @@ sqlparse==0.5.3 \
 types-requests==2.31.0.20240106 \
     --hash=sha256:0e1c731c17f33618ec58e022b614a1a2ecc25f7dc86800b36ef341380402c612 \
     --hash=sha256:da997b3b6a72cc08d09f4dba9802fdbabc89104b35fe24ee588e674037689354
-    # via -r requirements/prod.in
+    # via -r prod.in
 typing-extensions==4.14.0 \
     --hash=sha256:8676b788e32f02ab42d9e7c61324048ae4c6d844a399eebace3d4979d75ceef4 \
     --hash=sha256:a1514509136dd0b477638fc68d6a91497af5076466ad0fa6c338e44e359944af
