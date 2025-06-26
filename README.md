@@ -27,14 +27,12 @@ See the [Dependabot CLI documentation](https://github.com/dependabot/dependabot-
 To run the Dependabot update command locally, use:
 
 ```bash
-dependabot update
+make test
 ```
 
 Make sure you have Dependabot installed and configured for your project. For more details, see the [Dependabot documentation](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates).
 
 
-## Pipgrip
+## Findings
 
-```
-pipgrip sentry-sdk[django]==2.12.0 boto3 --tree
-```
+- `.python-file` file is used by dependabot to pick the python version and try to solve the dependencies. Any change or malformed version will cause dependabot to default the python version to who knows which.
