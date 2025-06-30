@@ -1,3 +1,0 @@
--r ci.in
-django-debug-toolbar==4.4.6
-pipgrip
