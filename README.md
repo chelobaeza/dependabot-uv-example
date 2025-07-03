@@ -1,4 +1,4 @@
-# Dependabot Demo [pip-compile]
+# Dependabot example [uv]
 
 ## Installation
 
@@ -7,7 +7,7 @@
 You can install the required dependencies for development or CI using the following commands:
 
 ```bash
-make pip
+make install
 ```
 
 2. **Install Dependabot CLI**
