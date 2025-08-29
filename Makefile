@@ -9,4 +9,4 @@ install: sort-pip-files compile-pip-files
 	uv pip sync requirements/dev.txt
 
 test:
-	dependabot update uv chelobaeza/dependabot-demo --local .
+	dependabot update uv chelobaeza/dependabot-uv-example --local .
